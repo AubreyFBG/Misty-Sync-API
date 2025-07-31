@@ -58,7 +58,7 @@ app.use((req, res) => {
     res.redirect('/'); 
 });
 
-app.listen(1323, () => {
+app.listen(8080, () => {
   console.log(`Servidor rodando em http://localhost:8080`);
 });
 
